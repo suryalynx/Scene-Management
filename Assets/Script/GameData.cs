@@ -14,6 +14,7 @@ public class GameData
         CurrentScore += score;
         if (CurrentScore > HighScore)
         {
+            // Update HighScore
             HighScore = CurrentScore;
         }
     }
